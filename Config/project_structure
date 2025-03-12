@@ -1,0 +1,29 @@
+toxic_comment_detector/
+├── data/
+│   ├── raw/
+│   │   └── train.csv
+│   └── processed/
+├── models/
+│   ├── saved/
+│   └── embeddings/
+├── src/
+│   ├── __init__.py
+│   ├── preprocessing/
+│   │   ├── __init__.py
+│   │   └── text_processor.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── toxic_classifier.py
+│   │   └── trainer.py
+│   ├── data/
+│   │   ├── __init__.py
+│   │   └── data_loader.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── main.py
+│   └── utils/
+│       └── __init__.py
+├── tests/
+├── train.py
+├── requirements.txt
+└── README.md 
