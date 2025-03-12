@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: toxic_comment_detector
+Version: 0.1
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: nltk
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: pydantic
